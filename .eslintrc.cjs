@@ -21,8 +21,8 @@ module.exports = defineConfig({
   ],
   rules: {
     eqeqeq: ['warn', 'always', { null: 'never' }],
-    'no-console': ['error'],
-    'no-debugger': ['error'],
+    'no-console': 'warn',
+    'no-debugger': 'warn',
     'no-empty': ['warn', { allowEmptyCatch: true }],
     'no-process-exit': 'off',
     'no-useless-escape': 'off',
@@ -35,7 +35,7 @@ module.exports = defineConfig({
     ],
     'object-shorthand': ['error', 'always'],
     'quote-props': ['error', 'as-needed', { keywords: false, unnecessary: true, numbers: false }],
-    'no-array-constructor': ['error'],
+    'no-array-constructor': 'error',
     'prefer-destructuring': ['error', {
       VariableDeclarator: {
         array: true,
