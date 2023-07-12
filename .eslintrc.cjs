@@ -66,7 +66,6 @@ module.exports = defineConfig({
     'prefer-arrow-callback': ['error', { allowUnboundThis: false }],
     'arrow-body-style': ['error', 'never'],
     'no-useless-constructor': 'error',
-    'no-duplicate-imports': ['error', { includeExports: true }],
     indent: ['error', 2, {
       SwitchCase: 1,
       VariableDeclarator: 1,
