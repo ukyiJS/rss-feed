@@ -279,7 +279,6 @@ module.exports = defineConfig({
     'react/jsx-one-expression-per-line': 'error',
     'react/jsx-props-no-multi-spaces': 'error',
     'react/jsx-sort-props': ['error', { reservedFirst: true, shorthandLast: true, callbacksLast: false }],
-    'react/jsx-space-before-closing': ['error', 'always'],
     'react/jsx-tag-spacing': ['error', { closingSlash: 'never', beforeSelfClosing: 'always', beforeClosing: 'never' }],
   },
 });
